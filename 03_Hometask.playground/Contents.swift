@@ -50,7 +50,7 @@ onlyEvenNumbers(min: 1, max: 10)
 //після чого множить на третє
 //і знаходить залишок від поділу з четвертого числа - виводить у консоль та повертає
 //
-func getSum (a:Int, b:Int, c:Int, d:Int) -> Int {
+func getSum (a: Int, b: Int, c: Int, d: Int) -> Int {
     var sum = ((a+b) * c) % d
     print(sum)
     return sum
